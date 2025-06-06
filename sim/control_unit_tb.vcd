@@ -1,0 +1,145 @@
+$date
+	Thu Mar 13 16:43:47 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module control_unit_tb $end
+$var wire 2 ! ResultSrc [1:0] $end
+$var wire 1 " RegWrite $end
+$var wire 2 # PCSrc [1:0] $end
+$var wire 1 $ MemWrite $end
+$var wire 3 % ImmSrc [2:0] $end
+$var wire 1 & ALUSrc $end
+$var wire 5 ' ALUControl [4:0] $end
+$var reg 32 ( Instr [31:0] $end
+$var reg 1 ) Negative $end
+$var reg 1 * Zero $end
+$scope module dut $end
+$var wire 32 + Instr [31:0] $end
+$var wire 1 ) Negative $end
+$var wire 1 * Zero $end
+$var wire 7 , opcode [6:0] $end
+$var wire 1 - funct7_bit $end
+$var wire 3 . funct3 [2:0] $end
+$var reg 5 / ALUControl [4:0] $end
+$var reg 1 & ALUSrc $end
+$var reg 3 0 ImmSrc [2:0] $end
+$var reg 1 $ MemWrite $end
+$var reg 2 1 PCSrc [1:0] $end
+$var reg 1 " RegWrite $end
+$var reg 2 2 ResultSrc [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 2
+b0 1
+b0 0
+b10 /
+b0 .
+0-
+b10011 ,
+b11001000000000000010010011 +
+x*
+x)
+b11001000000000000010010011 (
+b10 '
+1&
+b0 %
+0$
+b0 #
+1"
+b0 !
+$end
+#10000
+b1 !
+b1 2
+1"
+1&
+b11 ,
+b10 .
+1-
+b11111111110000000010000100000011 (
+b11111111110000000010000100000011 +
+#20000
+b1 '
+b1 /
+1"
+0&
+b0 !
+b0 2
+b110011 ,
+b0 .
+b1000000001000001000000110110011 (
+b1000000001000001000000110110011 +
+#30000
+b1 %
+b1 0
+1&
+1$
+b10 '
+b10 /
+0"
+b100011 ,
+b10 .
+b11111110001100000010111000100011 (
+b11111110001100000010111000100011 +
+#40000
+b1 #
+b1 1
+b1 '
+b1 /
+b10 %
+b10 0
+0&
+0$
+b1100011 ,
+b0 .
+0-
+1*
+b1100011 (
+b1100011 +
+#50000
+b10 !
+b10 2
+1"
+b100 %
+b100 0
+b10 '
+b10 /
+b1 #
+b1 1
+b1101111 ,
+b11101111 (
+b11101111 +
+#60000
+b0 %
+b0 0
+1"
+b10 !
+b10 2
+b10 #
+b10 1
+b1100111 ,
+b10000000011100111 (
+b10000000011100111 +
+#70000
+b11111 '
+b11111 /
+b11 %
+b11 0
+1"
+b11 !
+b11 2
+b0 #
+b0 1
+b110111 ,
+b1 .
+b1000000110111 (
+b1000000110111 +
+#80000
