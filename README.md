@@ -26,11 +26,12 @@ All modules and testbenches were written and verified using Icarus Verilog and G
 
 ---
 
-## Project Structure
-src/  # All SystemVerilog RTL modules
-tb/  # Testbenches for each module
-sim/  # Simulation script and output (e.g., VCD)
-asm/  # RISC-V machine code test programs
+```
+src/        # All SystemVerilog RTL modules  
+tb/         # Testbenches for each module  
+sim/        # Simulation script and output (e.g., VCD)  
+asm/        # RISC-V machine code test programs  
+```
 
 ---
 
