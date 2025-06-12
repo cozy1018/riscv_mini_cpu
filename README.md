@@ -1,4 +1,4 @@
-# RISC-V Mini CPU (SystemVerilog)
+# RISC-V Mini CPU
 
 This project implements a modular, lightweight RISC-V-compatible processor written in SystemVerilog.  
 It supports a subset of RISC-V instructions and simulates full instruction execution, including arithmetic, logic, control flow, and memory operations.
